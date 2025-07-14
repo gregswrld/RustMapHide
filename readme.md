@@ -1,12 +1,12 @@
 # Rust Map Hide OBS Script.
 
 ## Description
-Simple OBS Lua script to show a “map cover” image when you hold a hotkey and hide it when you release. Designed for Rust streams but works with any image source.
+Simple OBS Lua script to show a “map cover” image when you hold a hotkey and hide it when you release.
+Press G to instantly hide your map—whether you’re running, crouching, or standing still.
 
 ## Features
 - Hold **G** or **Shift+G** to toggle your map overlay
-- Enter any image source name in the script properties
-- Optional **Show Now** / **Hide Now** buttons in the script panel
+- Enter any image source name in the script properties (Ensure this matches the exact name of your image source in the OBS scene.)
 
 ## Requirements
 - OBS Studio 26 or newer
@@ -15,7 +15,7 @@ Simple OBS Lua script to show a “map cover” image when you hold a hotkey and
 ## Installation
 1. Download `Rust-Map-Hide.lua`.  
 2. In OBS go to **Tools → Scripts → +** and select `map_cover.lua`.
-     Or Manually Put The File In The Scripts Folder Via  
+     Or Manually Put The File In The OBS Scripts folder Via  
        - **Windows**: `%appdata%\obs-studio\basic\scripts\`  
        - **macOS**: `~/Library/Application Support/obs-studio/basic/scripts/`  
        - **Linux**: `~/.config/obs-studio/basic/scripts/`  
@@ -23,8 +23,7 @@ Simple OBS Lua script to show a “map cover” image when you hold a hotkey and
 ## Configuration
 1. Open the script in **Tools → Scripts**.  
 2. In **Image Source Name**, enter the exact name of your map image source.  
-3. (Optional) Click **Show Now** / **Hide Now** to test visibility.  
-4. Open OBS **Settings → Hotkeys**, find **Show Map Cover (Hold G)** and **Show Map Cover (Hold Shift+G)**, then assign your preferred keys.
+4. Open OBS **Settings → Hotkeys**, find **Show Map Cover (Hold G)** and **Show Map Cover (Hold Shift+G)**, then assign to the keys.
 
 Make sure your map source is **hidden by default** in your scene.
 
