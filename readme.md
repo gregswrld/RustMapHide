@@ -13,7 +13,7 @@ Simple OBS Lua script to show a “map cover” image when you hold a hotkey and
 - Windows, macOS or Linux
 
 ## Installation
-1. Download `map_cover.lua`.  
+1. Download `Rust-Map-Hide.lua`.  
 2. In OBS go to **Tools → Scripts → +** and select `map_cover.lua`.
      Or Manually Put The File In The Scripts Folder Via  
        - **Windows**: `%appdata%\obs-studio\basic\scripts\`  
