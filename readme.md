@@ -1,4 +1,4 @@
-# Rust Map Hide OBS Script
+# Rust Map Hide OBS Script.
 
 ## Description
 Simple OBS Lua script to show a “map cover” image when you hold a hotkey and hide it when you release. Designed for Rust streams but works with any image source.
